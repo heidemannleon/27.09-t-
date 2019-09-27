@@ -6,21 +6,59 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-flow: row wrap;
+   align-content: center;
+   place-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+.navmenu {
+        width: 320px;
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-flow: row wrap;
+   align-content: center;
+   place-content: space-between;
+   
+    
+}
+
+.logo{
+    display: inline-flex; 
+    flex-direction: row;
+   justify-content: flex-start
+}
+
+
+
+
 .sidebar {
     padding-left: 1vw;
     width: auto;
-    height: 20vh;
+    height: 12px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 50px;
     border-bottom-width: 50px;
     margin-bottom: 50px;
     position: relative;
-    background-color: lightgrey;
+    background-color: azure;
     flex-direction: column;
-    overflow: auto;
     display: flex;
-  
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-bottom-width: 18px;
+    padding-bottom: 100px;
+    border-top-width: 100px;
+    padding-bottom: 175px;
+    padding-top: 50px;
+    margin-top: 0px;
 }
 .container2 {
     
