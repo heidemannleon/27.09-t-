@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  background-image: linear-gradient(#00ccff, #00aaff);
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: lightblue;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  flex-direction: column;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.icon {
+padding-left: 2vw;
+}
+
+.container {
+justify-content: space-around;
+display: inline-flex;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: flex-end;
+  display: flex;
+}
+ 
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.content {
+  
+  padding: 1px 16px;
+  height: 1000px;
+  text-align-last: center;
+  padding-top: 35vh;
+}
+
+.navbar {
+  padding-bottom: 46vh;
+  text-align-last: center;
+}
+input,textarea,select { 
+    border: none
+}
+input,textarea,select { 
+    background-color: lightgray;
+    min-inline-size: -webkit-fill-available;
+}
+
+ } 
